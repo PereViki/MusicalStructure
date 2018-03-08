@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space_0">0dp</dimen>
+    <dimen name="space_XS">8dp</dimen>
+    <dimen name="space_S">16dp</dimen>
+    <dimen name="space_M">32dp</dimen>
+    <dimen name="space_L">48dp</dimen>
+
+    <dimen name="player_height">62dp</dimen>
+    <dimen name="song_list_icon_size">50dp</dimen>
+    <dimen name="grid_icon_size">150dp</dimen>
+    <dimen name="list_view_padding_bottom">78dp</dimen>
+
+    <dimen name="font_XS">12sp</dimen>
+    <dimen name="font_S">13sp</dimen>
+    <dimen name="font_M">16sp</dimen>
+
+</resources>

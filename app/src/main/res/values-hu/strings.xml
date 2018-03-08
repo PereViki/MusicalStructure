@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Player</string>
+    <string name="top_genre_category_label">Top stílusok</string>
+    <string name="top_artist_category_label">Top előadók</string>
+    <string name="top_album_category_label">Top albumok</string>
+    <string name="top_song_category_label">Top dalok</string>
+    <string name="see_all_category_label">Összes</string>
+    <string name="song">dal</string>
+    <string name="album">album</string>
+    <string name="tools_artist_name">Előadó Neve</string>
+    <string name="tools_album_title">Album címe</string>
+    <string name="tools_player_song_title">Éppen játszott dal</string>
+    <string name="tools_player_artist_name">Éppen játszott dal előadója</string>
+    <string name="select_a_song">Válassz egy dalt</string>
+    <string name="genres_label">Stílusok</string>
+    <string name="artists_label">Előadók</string>
+    <string name="songs_label">Dalok</string>
+    <string name="albums_label">Albumok</string>
+    <string name="tools_song_title">Dal címe</string>
+    <string name="all_artists">Összes előadó</string>
+    <string name="all_genres">Összes stílus</string>
+    <string name="all_songs">Összes dal</string>
+    <string name="all_albums">Összes album</string>
+    <string name="_albums">" albumok"</string>
+    <string name="toast_choose_song">Válassz egy dalt!</string>
+</resources>

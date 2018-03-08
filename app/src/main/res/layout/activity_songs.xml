@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Background"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/player_height"
+        android:paddingLeft="@dimen/space_S"
+        android:paddingTop="@dimen/space_S" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_player"
+        style="@style/Bottom_player">
+
+        <View style="@style/Seekbar_bg" />
+
+        <View style="@style/Seekbar" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player_song_title"
+                style="@style/Player_song_title"
+                android:text="@string/tools_player_song_title"
+                tools:text="@string/tools_player_song_title" />
+
+            <TextView
+                android:id="@+id/player_artist"
+                style="@style/Player_artist"
+                android:text="@string/tools_player_artist_name"
+                tools:text="@string/tools_player_artist_name" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_player_play"
+            style="@style/Bottom_play_button"
+            android:src="@drawable/play_button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

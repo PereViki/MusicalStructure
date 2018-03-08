@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/artist_image"
+        android:layout_width="@dimen/grid_icon_size"
+        android:layout_height="@dimen/grid_icon_size"
+        tools:src="@drawable/artist_image" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/Main_1st_row"
+        android:text="Artist Name" />
+
+    <TextView
+        android:id="@+id/album_count"
+        style="@style/Main_2nd_row"
+        android:paddingBottom="@dimen/space_XS"
+        tools:text="3 albums / 17 songs" />
+
+</LinearLayout>

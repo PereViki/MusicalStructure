@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/space_S"
+    >
+
+    <ImageView
+        style="@style/list_album_image"
+        android:id="@+id/album_cover"
+        android:layout_height="@dimen/song_list_icon_size"
+        android:layout_width="@dimen/song_list_icon_size"
+        tools:src="@drawable/album_image"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/player_height"
+        android:layout_toRightOf="@id/album_cover"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/song_title"
+            style="@style/Main_1st_row"
+            android:layout_marginTop="@dimen/space_0"
+            tools:text="@string/tools_song_title" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            style="@style/Main_2nd_row"
+            android:layout_marginBottom="@dimen/space_0"
+            tools:text="@string/tools_artist_name" />
+
+        <TextView
+            android:id="@+id/album_title"
+            style="@style/Main_2nd_row"
+            android:layout_marginBottom="@dimen/space_0"
+            tools:text="@string/tools_album_title"  />
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/play_button_common"
+        style="@style/list_play_button"/>
+
+</RelativeLayout>
